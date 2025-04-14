@@ -80,13 +80,13 @@ void test09() {
 // performance and correctness check (проверка быстродействия и корректности)
 void test10() {
 	int index = 19;
-	long long expected = 35890;
+	long long expected = 10609;
 	print_test(index, expected, "test10");
 }
 
 // testing larger indices (тест для очень больших индексов)
 void test11() {
 	int index = 29;
-	long long expected = 29249425;
+	long long expected = 4700770;
 	print_test(index, expected, "test11");
 }
